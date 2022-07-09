@@ -46,7 +46,11 @@ const users = [
   '9b0266167a3e',
   'ba684e55d13a',
   '66eda8ed392',
-  '7d13789dda7d'
+  '7d13789dda7d',
+  'c0debddbfc17',
+  'c1efc8eb5e1b',
+  '2c37f405ee7b',
+  'eebe06b365b5'
 ] //将需要关注的userId添加进去
 
 const sendPromise = (uid) => new Promise((resolve, reject) => {

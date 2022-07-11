@@ -14,21 +14,16 @@ Array.from(document.getElementsByTagName('script')).forEach(function (item) {
 const url = 'https://medium.com/_/graphql'
 
 const users = [
-  '3acbb9e7c166',
   'c0e625ece01e',
   '8b66f5c3dca0',
   'e383e37dcdc7',
   '9156aa660366',
   '2c5249ef22d5',
-  'cce6bab2a059',
   'aaf0ecba3c12',
   'e928fd84e9ca',
-  'db62fd5340d3',
   '2395de6c297f',
   'c8c5d79f7477',
-  'b2ffd2f747b',
   'e6b5039de479',
-  'd93079b2751c',
   '39bf686a8074',
   'eaf6d01609b8',
   '7cc5521e5d2b',
@@ -68,12 +63,13 @@ const users = [
   'c0debddbfc17',
   'c1efc8eb5e1b',
   '2c37f405ee7b',
-  'eebe06b365b5',
-  '2c37f405ee7b',
   'cce6bab2a059',
   'eebe06b365b5',
   'd93079b2751c',
-  'b2ffd2f747b'
+  'b2ffd2f747b',
+  'a8d1911c01f0',
+  '7e2072532c7b',
+  'c03b3e095f40'
 ]
 
 const sendPromise = (uid) => new Promise((resolve, reject) => {

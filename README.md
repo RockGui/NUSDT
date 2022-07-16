@@ -22,3 +22,7 @@ Find script from website
 - [ludwig](https://ludwig.guru/)
 - [linggle](https://linggle.com/)
 - [templates](https://github.com/do-community/do-article-templates)
+
+## Detail Of Writing step
+
+[artical](https://bytefilp.larksuite.com/docx/doxusJWQH0qGxrxKVUvxKa74Jpb)

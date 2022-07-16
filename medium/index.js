@@ -14,6 +14,11 @@ Array.from(document.getElementsByTagName('script')).forEach(function (item) {
 const url = 'https://medium.com/_/graphql'
 
 const users = [
+  '6e4ecbb92463',
+  '6cae7e3d650e',
+  '67e749f9029b',
+  '25ef83d9440e',
+  '221a86ee6fef',
   'c0e625ece01e',
   '8b66f5c3dca0',
   'e383e37dcdc7',
@@ -82,6 +87,10 @@ const sendPromise = (uid) => new Promise((resolve, reject) => {
       "query": "mutation FollowUser($targetUserId: ID!) {\nfollowUser(targetUserId: $targetUserId){\n__typename\nid\nviewerEdge{\n__typename\nid\nisFollowing\n}\n}\n}\n"
     }
   ]
+  /**
+   * 取消关注参数
+   * [{"operationName":"UnfollowUser","variables":{"targetUserId": uid},"query":"mutation UnfollowUser($targetUserId: ID!) {\n  unfollowUser(targetUserId: $targetUserId) {\n    __typename\n    id\n    viewerEdge {\n      __typename\n      id\n      isFollowing\n    }\n  }\n}\n"}]
+   */
   var xhr = new XMLHttpRequest();
   xhr.open("POST", url, true);
   xhr.setRequestHeader("Content-Type", "application/json");
